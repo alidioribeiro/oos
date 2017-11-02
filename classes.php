@@ -3,8 +3,8 @@ class conexaoODBC
 {
  //variaveis da conexao
   var $dns    = "ODBC_SPRINGER";
-  var $user   = "sa";
-  var $pass   = "@m40#P@ssw0rd";
+  var $user   = "";
+  var $pass   = "";
   var $odbc   = "";
   var $sql    = "";
  //construindo a conexao
@@ -33,9 +33,9 @@ class conexaoODBC
 class conexaoMYSQL
 {
  //variaveis da conexao
- var $host  = "orbitalservice.mysql.dbaas.com.br";
+ var $host  = "";
  var $login = "orbitalservice";
- var $senha = "a30aabbxx";
+ var $senha = "";
  var $db    = "orbitalservice";
  var $conn  = "";
  var $sql   = "";
